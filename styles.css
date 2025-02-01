@@ -1,0 +1,78 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Calibri"
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Container for the content */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px lightblue
+}
+
+/* Heading */
+h1 {
+  font-family: 'Time New Roman';
+  color: #ff5733;
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+/* Dice container to align both players' dice */
+.dice-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+/* Style for each dice block */
+.dice {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.dice img {
+  width: 150px;
+  height: 150px;
+  margin-top: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.dice img:hover {
+  transform: scale(1.15);
+}
+
+/* Roll button */
+.roll-btn {
+  background-color: #ff5733;
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.roll-btn:hover {
+  background-color: red;
+}
+
+footer {
+  margin-top: 30px;
+  font-size: 1rem;
+  color: black
+}
